@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>trilha CSS</title>
+ <style>
+    /* 
+    * Seletores : definem em quais elementos nós vamo aplicar o CSS
+
+    */
+    /* 
+    * 1. Seletor de Tap/Tipo
+
+    h1{
+        background: darkblue;
+        color: lightblue;
+    }
+    div{
+        background: lightblue;
+        color: blue;
+    }
+    li{
+        background: lightgreen;
+    } */
+
+   /* 
+   * 2. Seletor de Id 
+
+    #text-boas-vindas{
+        background: red;
+    }
+    #explicacao-seletores{
+        background: green;
+    } */
+
+   /* 
+    * 3. Seletor de Classes 
+
+    .seletores-class{
+        background: red;
+        color: aliceblue;
+    }
+    .texto-color{
+        color: blueviolet;
+    } */
+
+    /* 
+    * 4. Seletor Universal 
+
+    *{
+    font-weight: 800;
+
+    } */
+/* 
+    * 5. seletor Atributo 
+     [title]{
+        color: red;
+    }
+
+    [title="Netflix"]{
+        color: blueviolet;
+    } 
+
+    [title~="Streaming"]{
+        color: blueviolet;
+    }
+    [title|="Streaming"]{
+        color: red;
+    }
+    [href^="http://"]{
+        background-color: aquamarine;
+    }
+    [href$="login"]{
+        background-color:brown ;
+    }
+
+    [href*="open"]{
+        background-color: red;
+    }
+ */
+
+ </style>
+
+</head>
+<body>
+    <h1 >Seletores CSS</h1>
+    <p id="text-boas-vindas">Bem-vindo!</p>
+    <p id="explicacao-seletores">No CSS nós posuímos os seletrorespor ID</p>
+    <div>
+        <ul>
+            <li class="seletores-class"><b>Seletor por Tipo:</b>Busca elementos por uma tage HTMl específica</li> 
+            <li class="seletores-class"><b>Seletor por ID(#):</b>Busca elementos através do atributo "id"</li> 
+            <li class="seletores-class texto-color"><b>Seletor por Class(.):</b>Busca elementos através do atributo "class" e pode ser passado mais de uma classe dentro do atributo</li> 
+            <li class="texto-color"><b>Seletor Universal(*):</b> Seleciona todos os elementos HTML</li>
+            <li><b>Seletor de Atributo([chave - valor])</b> Seleciona elementos que possue um atributo específico em nosso documento HTML e conseguimos  também buscar atributos com um valor específico</li>
+
+        </ul>
+    </div>
+    <br><br>
+    <div>
+        <ul>
+            <li>
+                <a title="Streaming Netflix" href="https://www.netflix.com/br/">
+                    Netflix
+                </a>
+            </li>
+            <li>
+                <a title="Prime Streaming" href="https://www.primevideo.com/">
+                    Prime
+                </a>
+            </li>
+            <li>
+                <a title="Streaming-Netflix" href="http://www.netflix.com/br/">
+                    Netflixtest
+                </a>
+            </li>
+            <li>
+                <a title="Prime-Streaming" href="http://www.primevideo.com/login">
+                    Primetest
+                </a>
+            </li>
+            <li>
+                <a title="Spotify" href="https://open.spotify.com/">
+                    Spotify
+                </a>
+            </li>
+            <li>
+                <a title="Spotify" href="https://open.spotify.com/">
+                    Spotifytest
+                </a>
+            </li>
+            <li>
+                <a title="Netflix"> 
+                    Disney Plus
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+</body>
+</html>
